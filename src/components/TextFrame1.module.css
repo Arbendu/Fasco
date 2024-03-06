@@ -1,0 +1,157 @@
+.homeShopProducts {
+  position: relative;
+  line-height: 24px;
+}
+.spanpage {
+  height: 44px;
+  width: 44px;
+  border-radius: var(--br-9980xl);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-lgi) var(--padding-2xs)
+    var(--padding-mid);
+  box-sizing: border-box;
+}
+.div,
+.div1,
+.div2 {
+  position: relative;
+  line-height: 24px;
+}
+.highQualityWarranty {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: var(--gap-xl);
+}
+.buttonnewsletter,
+.featureTitleFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttonnewsletter {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.featureTitleFrame {
+  width: 173px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 22px;
+}
+.featuresList,
+.instagramFollowFrame,
+.textcontent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textcontent {
+  width: 603px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.featuresList,
+.instagramFollowFrame {
+  justify-content: flex-start;
+}
+.instagramFollowFrame {
+  width: 1138px;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-xl);
+  gap: 70px 0;
+}
+.featuresList {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-51xl);
+}
+.followUsOn,
+.loremIpsumDolor {
+  position: relative;
+  display: inline-block;
+}
+.followUsOn {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  width: 614px;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+}
+.followUsOnInstagramParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px 0;
+  max-width: 100%;
+}
+.pageLinks,
+.textFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-27xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-volkhov);
+}
+.textFrame {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-31xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}
+@media screen and (max-width: 1150px) {
+  .instagramFollowFrame {
+    gap: 70px 0;
+  }
+  .textFrame {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .followUsOn {
+    font-size: var(--font-size-18xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .instagramFollowFrame {
+    gap: 70px 0;
+  }
+  .textFrame {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .followUsOn {
+    font-size: var(--font-size-9xl);
+  }
+}

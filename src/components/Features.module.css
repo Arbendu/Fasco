@@ -1,0 +1,176 @@
+.bg,
+.icon {
+  position: relative;
+}
+.bg {
+  height: 200px;
+  width: 1920px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 20px 52.29px rgba(68, 68, 68, 0.04);
+  display: none;
+  max-width: 100%;
+}
+.icon {
+  height: 50px;
+  width: 51px;
+}
+.highQuality {
+  position: relative;
+  font-weight: 500;
+}
+.craftedFromTop {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+}
+.point {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.feature,
+.featureWrapper,
+.point {
+  display: flex;
+  justify-content: flex-start;
+}
+.feature {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.featureWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.icon1 {
+  height: 50px;
+  width: 38px;
+  position: relative;
+}
+.warranyProtection {
+  position: relative;
+  font-weight: 500;
+}
+.over2Years {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+}
+.warranyProtectionParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.feature1,
+.featureContainer,
+.warranyProtectionParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.feature1 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.featureContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.vectorIcon {
+  height: 50px;
+  width: 46px;
+  position: relative;
+}
+.freeShipping {
+  position: relative;
+  font-weight: 500;
+}
+.orderOver150 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+}
+.feature2,
+.freeShippingParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feature2 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.icon2,
+.support {
+  position: relative;
+}
+.icon2 {
+  height: 50px;
+  width: 50px;
+}
+.support {
+  font-weight: 500;
+}
+.dedicatedSupport {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+}
+.feature3,
+.supportParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feature3 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.features,
+.features1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.features1 {
+  width: 1281px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.features {
+  width: 1920px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 20px 52.29px rgba(68, 68, 68, 0.04);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-53xl) var(--padding-xl) var(--padding-53xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .features1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .freeShipping,
+  .highQuality,
+  .support,
+  .warranyProtection {
+    font-size: var(--font-size-base);
+  }
+}

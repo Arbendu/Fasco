@@ -1,0 +1,23 @@
+.loremIpsumFrame {
+  width: 2082px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-131xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  max-width: 108%;
+}
+@media screen and (max-width: 1325px) {
+  .loremIpsumFrame {
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .loremIpsumFrame {
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}

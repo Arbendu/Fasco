@@ -1,0 +1,551 @@
+.fasco {
+  position: relative;
+  line-height: 100%;
+  color: var(--color-darkslategray-100);
+}
+.createAccount {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.oRFrameChild {
+  height: 55px;
+  width: 294px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  display: none;
+}
+.image939Icon,
+.signUpWith {
+  position: relative;
+  z-index: 1;
+}
+.image939Icon {
+  height: 36px;
+  width: 36px;
+  object-fit: contain;
+}
+.signUpWith {
+  font-size: var(--font-size-base);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+}
+.oRFrame {
+  cursor: pointer;
+  border: 1px solid var(--color-cornflowerblue-100);
+  padding: var(--padding-5xs) var(--padding-13xl) var(--padding-6xs)
+    var(--padding-12xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 11px;
+  white-space: nowrap;
+}
+.oRFrame1:hover,
+.oRFrame:hover,
+.oRFrameItem {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+}
+.oRFrameItem {
+  height: 55px;
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-cornflowerblue-100);
+  display: none;
+}
+.image940Icon {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  object-fit: contain;
+  min-height: 42px;
+  z-index: 1;
+}
+.signUpWith1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.googleEmailFrame,
+.oRFrame1,
+.signupWithEmail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.oRFrame1 {
+  cursor: pointer;
+  border: 1px solid var(--color-cornflowerblue-100);
+  padding: var(--padding-6xs) var(--padding-8xl) var(--padding-7xs)
+    var(--padding-2xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-5xs);
+  align-items: center;
+  gap: 0 12px;
+  white-space: nowrap;
+}
+.googleEmailFrame,
+.signupWithEmail {
+  align-items: flex-start;
+  gap: 0 64px;
+}
+.googleEmailFrame {
+  flex-direction: column;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  gap: 29px 0;
+  max-width: 100%;
+}
+.createAccountButton {
+  height: 5px;
+  width: 30px;
+  position: relative;
+  background-color: var(--color-gray-300);
+}
+.or {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.createAccountButton1 {
+  height: 5px;
+  width: 30px;
+  position: relative;
+  background-color: var(--color-gray-300);
+}
+.passwordInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 12px;
+}
+.emailAddressInput,
+.firstName {
+  font-family: var(--font-poppins);
+}
+.emailAddressInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  color: var(--color-gray-300);
+}
+.firstName {
+  width: 97px;
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  color: var(--color-darkgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.firstLastNameInput {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+}
+.passwordLine {
+  align-self: stretch;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+}
+.emailAddress {
+  width: 129px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  color: var(--color-darkgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.createAccountBtn {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+}
+.emailPhoneInput {
+  align-self: stretch;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+}
+.password {
+  width: 86px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  color: var(--color-darkgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.signupWithGoogle {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+}
+.emailAddressLine,
+.loginBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginBtn {
+  align-self: stretch;
+  height: 47px;
+  gap: 7px 0;
+}
+.emailAddressLine {
+  flex: 1;
+  gap: 29px 0;
+  min-width: 211px;
+  max-width: 100%;
+}
+.lastName {
+  width: 97px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  color: var(--color-darkgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+}
+.lastNameParent {
+  align-self: stretch;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+}
+.phoneNumber {
+  width: 133px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  color: var(--color-darkgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.frameItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+}
+.phoneNumberParent {
+  align-self: stretch;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+}
+.confirmPassword {
+  width: 165px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  color: var(--color-darkgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.frameInner {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+}
+.confirmPasswordParent {
+  align-self: stretch;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+}
+.emailAddressLine1,
+.firstNameLine {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.emailAddressLine1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 29px 0;
+  min-width: 211px;
+}
+.firstNameLine {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 18px;
+}
+.signupTextChild {
+  height: 60px;
+  width: 575px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+  display: none;
+  max-width: 100%;
+}
+.createAccount1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.signupText {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-3xs)
+    var(--padding-3xl);
+  background-color: var(--color-black);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signupText:hover {
+  background-color: var(--color-darkslategray-200);
+}
+.alreadyHaveAn {
+  color: var(--color-black);
+}
+.login {
+  color: var(--color-cornflowerblue-100);
+}
+.alreadyHaveAnContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.08em;
+  line-height: 40px;
+  font-family: var(--font-poppins);
+  text-align: left;
+}
+.firstNameLine1 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.firstNameLine1,
+.formContainer,
+.signupWithEmail1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.formContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px 0;
+}
+.signupWithEmail1 {
+  width: 588px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.firstNameLineParent,
+.googleEmailFrameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.firstNameLineParent {
+  margin: 0;
+  align-self: stretch;
+  align-items: center;
+  gap: 44px 0;
+}
+.googleEmailFrameParent {
+  width: 666px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  gap: 67px 0;
+  font-size: var(--font-size-11xl);
+}
+.fascoTerms {
+  position: relative;
+  line-height: 40px;
+}
+.fascoParent,
+.passwordLine1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+}
+.fascoParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 83px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-47xl-6);
+  color: var(--color-black);
+  font-family: var(--font-volkhov);
+}
+@media screen and (max-width: 900px) {
+  .fasco {
+    font-size: var(--font-size-34xl);
+    line-height: 53px;
+  }
+  .createAccount {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .signupWithEmail {
+    flex-wrap: wrap;
+    gap: 0 64px;
+  }
+  .or {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .firstNameLine {
+    flex-wrap: wrap;
+  }
+  .firstNameLineParent {
+    gap: 44px 0;
+  }
+  .googleEmailFrameParent {
+    gap: 67px 0;
+  }
+  .fascoParent {
+    gap: 83px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fasco {
+    font-size: var(--font-size-21xl);
+    line-height: 40px;
+  }
+  .createAccount {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .signupWithEmail {
+    gap: 0 64px;
+  }
+  .or {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .googleEmailFrameParent {
+    gap: 67px 0;
+  }
+  .fascoParent {
+    gap: 83px 0;
+  }
+}

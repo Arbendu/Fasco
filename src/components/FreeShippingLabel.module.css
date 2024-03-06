@@ -1,0 +1,448 @@
+.pointIcon {
+  height: 30.5px;
+  width: 164.5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttonLabelComponent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.bg,
+.suspender {
+  position: relative;
+}
+.bg {
+  height: 39px;
+  width: 125px;
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.suspender {
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  z-index: 1;
+}
+.text {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-7xs)
+    var(--padding-lgi);
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text1:hover,
+.text2:hover,
+.text4:hover,
+.text5:hover,
+.text:hover {
+  background-color: var(--color-gainsboro-600);
+  border: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+}
+.point,
+.rectangleComponent {
+  display: flex;
+  align-items: flex-start;
+}
+.point {
+  width: 250px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.rectangleComponent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.pointIcon1 {
+  height: 30.5px;
+  width: 164.5px;
+  position: relative;
+  object-fit: contain;
+}
+.freeShippingComponent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.bg1,
+.hugoBoss {
+  position: relative;
+}
+.bg1 {
+  height: 39px;
+  width: 125px;
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.hugoBoss {
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  z-index: 1;
+}
+.text1 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-mid) var(--padding-7xs)
+    var(--padding-xl);
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.point1 {
+  width: 250px;
+  gap: var(--gap-9xs);
+}
+.point1,
+.textComponent,
+.topLevelFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textComponent {
+  align-self: stretch;
+  gap: 93px 0;
+}
+.topLevelFrame {
+  flex: 1;
+  min-width: 191px;
+  min-height: 302px;
+  flex-shrink: 0;
+}
+.pointIcon2 {
+  width: 104.5px;
+  height: 30.5px;
+}
+.bg2,
+.flatCap,
+.pointIcon2 {
+  position: relative;
+}
+.bg2 {
+  height: 39px;
+  width: 125px;
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.flatCap {
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  z-index: 1;
+}
+.text2 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-6xl) var(--padding-7xs)
+    var(--padding-10xl);
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.subscribeButtonContainerCom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.point2 {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.instagramContainerComponent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.pointIcon3 {
+  width: 104.5px;
+  height: 30.5px;
+}
+.bg3,
+.hugoBoss1,
+.pointIcon3 {
+  position: relative;
+}
+.bg3 {
+  height: 39px;
+  width: 125px;
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.hugoBoss1 {
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  z-index: 1;
+}
+.text3,
+.text4 {
+  display: flex;
+  flex-direction: row;
+}
+.text4 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-mid) var(--padding-7xs)
+    var(--padding-xl);
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.text3 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.lineSeparatorComponent,
+.point3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.point3 {
+  width: 230px;
+  gap: var(--gap-7xs);
+}
+.lineSeparatorComponent {
+  align-self: stretch;
+  gap: 106px 0;
+}
+.pointIcon4 {
+  height: 30.5px;
+  width: 104.5px;
+}
+.bg4,
+.pointIcon4,
+.santoni {
+  position: relative;
+}
+.bg4 {
+  height: 39px;
+  width: 125px;
+  background-color: var(--color-gray-800);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.santoni {
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  z-index: 1;
+}
+.text5 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-6xs) var(--padding-7xs) var(--padding-7xs);
+  background-color: var(--color-gray-800);
+  align-self: stretch;
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.textWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) 0 0;
+}
+.image,
+.point4 {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.point4 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.image {
+  width: 239px;
+  padding: 0 var(--padding-8xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.customerQuoteComponent,
+.image,
+.points {
+  display: flex;
+  justify-content: flex-start;
+}
+.customerQuoteComponent {
+  width: 277px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 197px 0;
+  min-width: 277px;
+  flex-shrink: 0;
+}
+.points {
+  width: 586px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  z-index: 5;
+}
+.bgIcon,
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  max-height: 100%;
+}
+.bgIcon {
+  width: calc(100% - 1px);
+  right: 1px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 3;
+}
+.imageIcon {
+  left: 175px;
+  width: 722px;
+  object-fit: cover;
+  z-index: 4;
+}
+.separator {
+  position: absolute;
+  top: 0.18px;
+  left: 1053.53px;
+  background-color: var(--color-black);
+  width: 2px;
+  height: 599.1px;
+  transform: rotate(18.14deg);
+  transform-origin: 0 0;
+  z-index: 5;
+}
+.bgParent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 2px;
+  left: 0;
+}
+.freeShippingLabel,
+.orderSupportLabel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.orderSupportLabel {
+  width: 1056px;
+  align-items: center;
+  padding: var(--padding-lgi) var(--padding-139xl) var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.freeShippingLabel {
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1325px) {
+  .orderSupportLabel {
+    padding-left: var(--padding-60xl);
+    padding-right: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .topLevelFrame {
+    min-height: auto;
+  }
+  .customerQuoteComponent {
+    flex: 1;
+  }
+  .points {
+    flex-wrap: wrap;
+  }
+  .orderSupportLabel {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .textComponent {
+    gap: 93px 0;
+  }
+  .lineSeparatorComponent {
+    gap: 106px 0;
+  }
+  .customerQuoteComponent {
+    gap: 197px 0;
+  }
+  .orderSupportLabel {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
